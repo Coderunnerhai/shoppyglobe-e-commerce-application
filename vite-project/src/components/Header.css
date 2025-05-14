@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

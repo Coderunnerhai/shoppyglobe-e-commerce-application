@@ -1,0 +1,37 @@
+.product-detail {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #218838;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
